@@ -7,7 +7,7 @@ Class Juego
 
       
     
-  public  function Preguntas()
+    public  function Preguntas()
     {
     $preguntas['i'] = $this-> Preguntas[100];
      {
@@ -15,24 +15,26 @@ Class Juego
    
         
             return $this-> Preguntas;
-    }
-     }
+      }
+      }
 
    
      public function Respuestas()
-           {
+     {
+     $Respuestas['i'] = $this-> Respuestas[100];
+    
+            for ($i = 0; $i < $Respuestas; ++$i) 
+           
          return $this-> Respuestas;
            }
+      }
+
             
         
    
 
 
 
-}
-     
 
-
-
-
+    
 ?>
